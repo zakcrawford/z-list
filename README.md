@@ -27,7 +27,7 @@ Commands:
 - Python 3
 - pip
 - virtualenv
-- AWS Access Key ([How to set up AWS Access Keys](https://chartboost.atlassian.net/wiki/display/EN/AWS+Access+Keys))
+- AWS Access Key
 
 ### Configuration
 ```Bash
