@@ -77,7 +77,7 @@ def list(context, verbose):
 def run(context, command):
     """Run command across multiple servers."""
     hosts = [
-        instance_name + '.caffeine.io'
+        instance_name
         for instance_name in context.obj.list_by_tag('Name')
     ]
     client = ParallelSSHClient(hosts)
